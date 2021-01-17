@@ -16,7 +16,7 @@ pipeline {
     stage("Validation") {
       steps {
         timeout (time: 15, unit: 'MINUTES') {
-          input message: "Are you sure you want to deploy ${AGENT_NAME} ? (Click "Proceed" to continue...)"
+          input message: 'Are you sure you want to deploy the agent? (Click "Proceed" to continue...)'
         }
       }
     }
