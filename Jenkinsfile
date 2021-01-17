@@ -7,7 +7,7 @@ pipeline {
 
   environment {
     NETLIFY_AUTH_TOKEN  = credentials('netlify-token')
-    NETLIFY_DEPLOY_ID   = f3939897-1e6e-4b74-bbdb-e7e9b903bec8
+    NETLIFY_DEPLOY_ID   = "f3939897-1e6e-4b74-bbdb-e7e9b903bec8"
     AGENT_NAME          = netlify
   }
 
