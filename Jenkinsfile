@@ -6,7 +6,7 @@ pipeline {
   }
 
   environment {
-    AGENT_NAME  = netlify
+    AGENT_NAME  = "netlify"
     AGENT_URL   = "https://stupefied-lamarr-1f8830.netlify.app/"
   }
 
